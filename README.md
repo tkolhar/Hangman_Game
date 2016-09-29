@@ -1,19 +1,15 @@
-# Hangman_Game
-                            ---------------------------------------------------------
-                                            HANGMAN GAME README
-                            ---------------------------------------------------------
-							
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-						RUN THE GAME AS BELOW
-						
-						$python New_Hangman_Game.py
 
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-							
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
+                    
+
+
+                                        HANGMAN GAME README
+                           
+					RUN THE GAME AS BELOW
+						
+					$python New_Hangman_Game.py
+
+
+
 Pre-Requisites:
 
 This is simple Guess Word HangMan Game
@@ -29,12 +25,11 @@ Please make sure you download and install nltk module along numpy.
  
 For Gui development we have used the in-built Tkinter Module
 This allows to Draw Picture of Hangman as we play the Game.
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
+
 
 						Application Class 
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
+
+
 This is a class of Our Application which inherits Tkinter Frame Class
 So that we have available features to develop Gui
 
@@ -46,12 +41,12 @@ The following Widgets are added to Frame
 5. How To Play Button - A Help Message Guiding to Play the Game
 6. Quit -  Quit the Game
 7. Play Again - Play the Game Again
-----------------------------------------------------------------------------------
-----------------------------------------------------------------------------------
+
+
  
                        COMPUTING HIDDEN WORD LOGIC  
-----------------------------------------------------------------------------------
-----------------------------------------------------------------------------------
+
+
  Steps:
           1. Obtain Wordlist from words.words(). 
 		     This is available in nltk.corpus.words
@@ -68,12 +63,12 @@ The following Widgets are added to Frame
                 after it is guessed correctly by the Player
              d. Increment the row
           8. Add a label "Guess the Hidden Word" to Canvas
-------------------------------------------------------------------------------------		  
-------------------------------------------------------------------------------------
+
+
 
                         HANGMAN GAME LOGIC
-------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------
+
+
  Steps:
           1. Convert the HiddenWord to Uppercase
           2. Set letterinwordflag to False . 
@@ -98,11 +93,12 @@ The following Widgets are added to Frame
              b. Player has Lost the Game.
              c. Display Lost the Game message along with the Correct Word.
              d. Mention steps to Exit
-------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------
+
+
+
                      Draw HangMan Picture Logic
-------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------
+
+
  Keep a Count of Incorrect Guesses and for each Incorrect Guess draw the component
  of HangMan
  Steps:
@@ -131,12 +127,10 @@ The following Widgets are added to Frame
             12.If Count of Incorrect Guess is 1
                a. Draw the right leg
 
-------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------
+
 
                   POSSIBLE SCENARIOS FOR THE GAME
-------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------
+
 1. A PLAYER CAN READ INSTRUCTION OF GAME USING HOW_TO_PLAY
 2. A PLAYER CAN KEEP GUESSING THE LETTER UPTO 10 Tries
 3. ONCE THE TRIES ARE FINISHED AND STILL THE PLAYER SELECTS THE LETTER
@@ -149,6 +143,5 @@ The following Widgets are added to Frame
 7. IF A PLAYER CLICKS PLAY AGAIN HE WE BE ABLE TO START THE GAME AGAIN
 8. IF A PLAYER CLICKS QUIT HE IS OUT OF THE GAME GUI
 9. IF A PLAYER CLICKS HOW TO PLAY HE WILL SEE INSTRUCTION TO PLAY THE GAME
-------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------
+
 
