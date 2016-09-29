@@ -12,10 +12,10 @@
 
 Pre-Requisites:
 
-This is simple Guess Word HangMan Game
-It uses Python 2.7.11 32bit 
-Please use Python 2.7.11 32 bit Interpreter to run the Script since we are using nltk Package
-It needs following packages to be setup for generating words from the wordnet
+> This is simple Guess Word HangMan Game
+> It uses Python 2.7.11 32bit 
+> Please use Python 2.7.11 32 bit Interpreter to run the Script since we are using nltk Package
+> It needs following packages to be setup for generating words from the wordnet
 1. nltk
 2. Supporting Package numpy
 The installation steps can be found here:
